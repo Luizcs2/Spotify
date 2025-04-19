@@ -1,0 +1,1 @@
+//Authentication controller - handles the authentication of the user 

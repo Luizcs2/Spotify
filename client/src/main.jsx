@@ -1,3 +1,5 @@
+//Main entry point for the app - renders the app
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";

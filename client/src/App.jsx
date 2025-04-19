@@ -1,3 +1,5 @@
+//Main App component - renders the app
+
 import { useState } from "react";
 import "./App.css";
 

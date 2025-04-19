@@ -1,0 +1,1 @@
+//Search Bar Component - Search input for searching songs/artists
