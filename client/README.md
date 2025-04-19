@@ -1,12 +1,35 @@
-# React + Vite
+Spotify Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully-functional Spotify clone built with React, Tailwind CSS, and the Spotify Web API. This app allows users to browse, search, and play music, replicating core Spotify features.
 
-Currently, two official plugins are available:
+Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React.js, Tailwind CSS, React Router, Axios
+API: Spotify Web API (for music data and playback)
+Optional Backend: Node.js, Express.js, MongoDB (for user data, playlists, and JWT authentication)
+Installation
 
-## Expanding the ESLint configuration
+Clone the repo:
+git clone https://github.com/your-username/spotify-clone.git
+cd spotify-clone
+Install dependencies:
+npm install
+Set up environment variables in .env:
+REACT_APP_SPOTIFY_API_KEY=your-spotify-api-key
+Run the App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend:
+cd client
+npm start
+Optional Backend:
+npm start
+Contributing
+
+Fork the repo.
+Create a new branch: git checkout -b feature/your-feature.
+Commit and push changes.
+Open a Pull Request.
+License
+
+MIT License
+
