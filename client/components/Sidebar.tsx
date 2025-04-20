@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Box from "./Box";
 import { useMemo } from "react";
 import SidebarItem from "./SidebarItem";
+import Library from "./Library";
 
 interface SidebarProps {
   children: React.ReactNode;
@@ -42,8 +43,11 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
             ))}{" "}
           </div>
         </Box>
-        <Box className="h-full overflow-y-auto ">Song library</Box>
+        <Box className="h-full overflow-y-auto ">
+          <Library />
+        </Box>
       </div>
+      <main className="h-full flex-1 overflow-y-auto py-2">{children}</main>
     </div>
   );
 };
