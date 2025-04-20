@@ -1,1 +1,0 @@
-// User model - defines the user schema in the database 

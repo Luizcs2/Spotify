@@ -1,1 +1,0 @@
-// Authentication routes - handles the authentication of the user  
