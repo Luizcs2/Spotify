@@ -1,1 +1,0 @@
-// Homepage showing featured songs, playlists, artists, albums, etc.
