@@ -28,11 +28,10 @@ export default function RootLayout({
         
         <SupabaseProvider>
             <UserProvider>
-              <ModalProvider>
+              <ModalProvider/>
                 <Sidebar>
                   {children}
                 </Sidebar>
-              </ModalProvider>
             </UserProvider>
         </SupabaseProvider>
 

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import AuthModal from "@/components/AuthModal";
 interface ModalProviderProps {
-    children: React.ReactNode;
+    children?: React.ReactNode;
 }
 
 const ModalProvider: React.FC<ModalProviderProps> = ({children}) => {
